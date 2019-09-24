@@ -1,0 +1,2 @@
+﻿User-agent: *
+Sitemap: http://maskarad-teatr.itsinsta.site/sitemap.xml
