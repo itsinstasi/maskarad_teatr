@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: http://maskarad-teatr.itsinsta.site/sitemap.xml
+Sitemap: http://corpparty.ru/sitemap.xml
