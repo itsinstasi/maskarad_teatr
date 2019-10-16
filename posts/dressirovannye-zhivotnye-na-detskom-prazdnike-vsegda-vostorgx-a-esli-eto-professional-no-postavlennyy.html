@@ -43,6 +43,9 @@
     <meta property="og:locale" content="Ru-ru" />
     <meta property="og:site_name" content="maskarad_teatr" />
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -54,7 +57,7 @@
 		Вам нужно включить JavaScript в своем браузере, чтобы  отображение этой страницы было корректно.
     </noscript>
 	<div class="wrapper">
-		<header class="header">
+		<header class="header" id="js-header">
 			<div class="container">
 				<div class="header__wrap">
 					<div class="header__left">
@@ -68,249 +71,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организация детских праздников">
-								<a href="../tags/./organizatsiya-detskikh-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatsiya-detskikh-prazdnikov.png" alt="организация детских праздников" /></div>
-									<div class="stories__slide-txt">организация детских праздников</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организация детских праздников">
+										<a href="../tags/./organizatsiya-detskikh-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatsiya-detskikh-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">организация детских праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организация праздников">
+										<a href="../tags/./organizatsiya-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatsiya-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">организация праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детский праздник">
+										<a href="../tags/./detskiy-prazdnik.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskiy-prazdnik.png);"></div>
+											<div class="stories__slide-txt">детский праздник</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="театр маскарад">
+										<a href="../tags/./teatr-maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/teatr-maskarad.png);"></div>
+											<div class="stories__slide-txt">театр маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="прове дение праздников">
+										<a href="../tags/./prove-denie-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prove-denie-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">прове дение праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детский день рож дения">
+										<a href="../tags/./detskiy-den--rozh-deniya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskiy-den--rozh-deniya.png);"></div>
+											<div class="stories__slide-txt">детский день рож дения</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агентство детских праздников">
+										<a href="../tags/./agentstvo-detskikh-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agentstvo-detskikh-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">агентство детских праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="ивент агентство">
+										<a href="../tags/./ivent-agentstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/ivent-agentstvo.png);"></div>
+											<div class="stories__slide-txt">ивент агентство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агентство маскарад">
+										<a href="../tags/./agentstvo-maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agentstvo-maskarad.png);"></div>
+											<div class="stories__slide-txt">агентство маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="прове дение детских праздников">
+										<a href="../tags/./prove-denie-detskikh-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prove-denie-detskikh-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">прове дение детских праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детские праздники">
+										<a href="../tags/./detskie-prazdniki.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskie-prazdniki.png);"></div>
+											<div class="stories__slide-txt">детские праздники</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агентство праздников">
+										<a href="../tags/./agentstvo-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agentstvo-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">агентство праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="праздник детям">
+										<a href="../tags/./prazdnik-detyam.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prazdnik-detyam.png);"></div>
+											<div class="stories__slide-txt">праздник детям</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="праздник Москва">
+										<a href="../tags/./prazdnik-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prazdnik-Moskva.png);"></div>
+											<div class="stories__slide-txt">праздник Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="день рож дения">
+										<a href="../tags/./den--rozh-deniya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/den--rozh-deniya.png);"></div>
+											<div class="stories__slide-txt">день рож дения</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организатор праздников">
+										<a href="../tags/./organizator-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizator-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">организатор праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="маскарад">
+										<a href="../tags/./maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/maskarad.png);"></div>
+											<div class="stories__slide-txt">маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="праздник">
+										<a href="../tags/./prazdnik.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prazdnik.png);"></div>
+											<div class="stories__slide-txt">праздник</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детский праздник Москва">
+										<a href="../tags/./detskiy-prazdnik-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskiy-prazdnik-Moskva.png);"></div>
+											<div class="stories__slide-txt">детский праздник Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="omg">
+										<a href="../tags/./omg.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/omg.png);"></div>
+											<div class="stories__slide-txt">omg</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организатор мероприятий">
+										<a href="../tags/./organizator-meropriyatiy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizator-meropriyatiy.png);"></div>
+											<div class="stories__slide-txt">организатор мероприятий</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организация праздника">
+										<a href="../tags/./organizatsiya-prazdnika.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatsiya-prazdnika.png);"></div>
+											<div class="stories__slide-txt">организация праздника</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="фотограф Москва">
+										<a href="../tags/./fotograf-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/fotograf-Moskva.png);"></div>
+											<div class="stories__slide-txt">фотограф Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="party">
+										<a href="../tags/./party.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/party.png);"></div>
+											<div class="stories__slide-txt">party</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организаторы">
+										<a href="../tags/./organizatory.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatory.png);"></div>
+											<div class="stories__slide-txt">организаторы</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организатор">
+										<a href="../tags/./organizator.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizator.png);"></div>
+											<div class="stories__slide-txt">организатор</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="insta kids">
+										<a href="../tags/./insta-kids.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/insta-kids.png);"></div>
+											<div class="stories__slide-txt">insta kids</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="maskarad">
+										<a href="../tags/./maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/maskarad.png);"></div>
+											<div class="stories__slide-txt">maskarad</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агенство маскарад">
+										<a href="../tags/./agenstvo-maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agenstvo-maskarad.png);"></div>
+											<div class="stories__slide-txt">агенство маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="event">
+										<a href="../tags/./event.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/event.png);"></div>
+											<div class="stories__slide-txt">event</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организация праздников">
-								<a href="../tags/./organizatsiya-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatsiya-prazdnikov.png" alt="организация праздников" /></div>
-									<div class="stories__slide-txt">организация праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детский праздник">
-								<a href="../tags/./detskiy-prazdnik.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskiy-prazdnik.png" alt="детский праздник" /></div>
-									<div class="stories__slide-txt">детский праздник</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="театр маскарад">
-								<a href="../tags/./teatr-maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/teatr-maskarad.png" alt="театр маскарад" /></div>
-									<div class="stories__slide-txt">театр маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="проведение праздников">
-								<a href="../tags/./provedenie-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/provedenie-prazdnikov.png" alt="проведение праздников" /></div>
-									<div class="stories__slide-txt">проведение праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детский день рождения">
-								<a href="../tags/./detskiy-den--rozhdeniya.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskiy-den--rozhdeniya.png" alt="детский день рождения" /></div>
-									<div class="stories__slide-txt">детский день рождения</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агентство детских праздников">
-								<a href="../tags/./agentstvo-detskikh-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/agentstvo-detskikh-prazdnikov.png" alt="агентство детских праздников" /></div>
-									<div class="stories__slide-txt">агентство детских праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="ивент агентство">
-								<a href="../tags/./ivent-agentstvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/ivent-agentstvo.png" alt="ивент агентство" /></div>
-									<div class="stories__slide-txt">ивент агентство</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агентство маскарад">
-								<a href="../tags/./agentstvo-maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/agentstvo-maskarad.png" alt="агентство маскарад" /></div>
-									<div class="stories__slide-txt">агентство маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="проведение детских праздников">
-								<a href="../tags/./provedenie-detskikh-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/provedenie-detskikh-prazdnikov.png" alt="проведение детских праздников" /></div>
-									<div class="stories__slide-txt">проведение детских праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детские праздники">
-								<a href="../tags/./detskie-prazdniki.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskie-prazdniki.png" alt="детские праздники" /></div>
-									<div class="stories__slide-txt">детские праздники</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агентство праздников">
-								<a href="../tags/./agentstvo-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/agentstvo-prazdnikov.png" alt="агентство праздников" /></div>
-									<div class="stories__slide-txt">агентство праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="праздник детям">
-								<a href="../tags/./prazdnik-detyam.html">
-									<div class="stories__slide-pic"><img src="../img/og/prazdnik-detyam.png" alt="праздник детям" /></div>
-									<div class="stories__slide-txt">праздник детям</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="праздник Москва">
-								<a href="../tags/./prazdnik-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/prazdnik-Moskva.png" alt="праздник Москва" /></div>
-									<div class="stories__slide-txt">праздник Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="день рождения">
-								<a href="../tags/./den--rozhdeniya.html">
-									<div class="stories__slide-pic"><img src="../img/og/den--rozhdeniya.png" alt="день рождения" /></div>
-									<div class="stories__slide-txt">день рождения</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организатор праздников">
-								<a href="../tags/./organizator-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizator-prazdnikov.png" alt="организатор праздников" /></div>
-									<div class="stories__slide-txt">организатор праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="маскарад">
-								<a href="../tags/./maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/maskarad.png" alt="маскарад" /></div>
-									<div class="stories__slide-txt">маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="праздник">
-								<a href="../tags/./prazdnik.html">
-									<div class="stories__slide-pic"><img src="../img/og/prazdnik.png" alt="праздник" /></div>
-									<div class="stories__slide-txt">праздник</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детский праздник Москва">
-								<a href="../tags/./detskiy-prazdnik-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskiy-prazdnik-Moskva.png" alt="детский праздник Москва" /></div>
-									<div class="stories__slide-txt">детский праздник Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="omg">
-								<a href="../tags/./omg.html">
-									<div class="stories__slide-pic"><img src="../img/og/omg.png" alt="omg" /></div>
-									<div class="stories__slide-txt">omg</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организатор мероприятий">
-								<a href="../tags/./organizator-meropriyatiy.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizator-meropriyatiy.png" alt="организатор мероприятий" /></div>
-									<div class="stories__slide-txt">организатор мероприятий</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организация праздника">
-								<a href="../tags/./organizatsiya-prazdnika.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatsiya-prazdnika.png" alt="организация праздника" /></div>
-									<div class="stories__slide-txt">организация праздника</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="фотограф Москва">
-								<a href="../tags/./fotograf-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/fotograf-Moskva.png" alt="фотограф Москва" /></div>
-									<div class="stories__slide-txt">фотограф Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="party">
-								<a href="../tags/./party.html">
-									<div class="stories__slide-pic"><img src="../img/og/party.png" alt="party" /></div>
-									<div class="stories__slide-txt">party</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организаторы">
-								<a href="../tags/./organizatory.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatory.png" alt="организаторы" /></div>
-									<div class="stories__slide-txt">организаторы</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организатор">
-								<a href="../tags/./organizator.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizator.png" alt="организатор" /></div>
-									<div class="stories__slide-txt">организатор</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="insta kids">
-								<a href="../tags/./insta-kids.html">
-									<div class="stories__slide-pic"><img src="../img/og/insta-kids.png" alt="insta kids" /></div>
-									<div class="stories__slide-txt">insta kids</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="maskarad">
-								<a href="../tags/./maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/maskarad.png" alt="maskarad" /></div>
-									<div class="stories__slide-txt">maskarad</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агенство маскарад">
-								<a href="../tags/./agenstvo-maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/agenstvo-maskarad.png" alt="агенство маскарад" /></div>
-									<div class="stories__slide-txt">агенство маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="event">
-								<a href="../tags/./event.html">
-									<div class="stories__slide-pic"><img src="../img/og/event.png" alt="event" /></div>
-									<div class="stories__slide-txt">event</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -335,17 +344,26 @@
 					<div class="article__wrap" id="ja-article-wrap">
 						<div class="article-main">
 							<div class="article-content">
-								<div class="article-slider js-article-slider">
-									<div><div class="article-slide"><img data-lazy="https://scontent-arn2-2.cdninstagram.com/vp/05b1432f51cacce77f0bc7f075218d77/5E36E588/t51.2885-15/e35/42636684_1878512865560124_406945053022446282_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" alt=""></div></div>
-									<div><div class="article-slide"><img data-lazy="https://scontent-arn2-2.cdninstagram.com/vp/b02b8fcf61caadb9d2f89ac55fce37bf/5E33CCD7/t51.2885-15/e35/42666689_278065062827936_6947660122473774012_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div></div>
+								<div class="article-slider-wrap">
+									<div class="article-slider js-article-slider">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide article-slider__slide">
+												<img data-src="https://scontent-arn2-2.cdninstagram.com/vp/05b1432f51cacce77f0bc7f075218d77/5E36E588/t51.2885-15/e35/42636684_1878512865560124_406945053022446282_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=100" class="swiper-lazy" alt="">
+											</div>
+											<div class="swiper-slide article-slider__slide">
+												<img data-src="https://scontent-arn2-2.cdninstagram.com/vp/b02b8fcf61caadb9d2f89ac55fce37bf/5E33CCD7/t51.2885-15/e35/42666689_278065062827936_6947660122473774012_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" class="swiper-lazy" alt="">
+											</div>
+											<div class="article-slider-pagination js-article-slider-pagination"></div>
+											<div class="article-slider-arrow article-slider-arrow--prev js-article-slider-prev"></div>
+											<div class="article-slider-arrow article-slider-arrow--next js-article-slider-next"></div>
+										</div>
+									</div>
 								</div>
 								<p>Дрессированные Животные на детском празднике всегда восторг, а если это профессионально поставленный и отработанный номер, смех и улыбки обеспечены! Номер с ручной обезьянкой, которая выполняет цирковые трюки перед детьми, а в конце программы обезьянку как малыша можно попоить из бутылочки! Продолжительность номера 15 минут + время на фото! Стоимость от 18000₽. ДРЕССИРОВАННЫЕ ЖИВОТНЫЕ на праздник <a href="https://instagram.com/maskarad_teatr" target="_blank">@maskarad_teatr</a> <br/><a href="http://maskarad.org/detskie-uslugi/dressirovannye-zhivotnye.html" target="_blank">http://maskarad.org/detskie-uslugi/dressirovannye-zhivotnye.html</a><br/>🎗ОРГАНИЗАЦИЯ ДЕТСКИХ ПРАЗДНИКОВ <a href="https://instagram.com/maskarad_event" target="_blank">@maskarad_event</a> ☎️+7(495)545-86-68 .</p> 
 							</div>
 						<div>
 							<a href="https://www.instagram.com/p/BotZIeEgsV1/" 
-								target="_blank" class="links-page-list__item-link">
-								<strong>Комментировать</strong>
-								<span>Instagram</span>
+								target="_blank" class="links-page-btn shake"><strong>Комментировать</strong>&nbsp;<span>Instagram</span>
 							</a>
 						</div>
 
@@ -363,10 +381,10 @@
 									<a href="../tags/./shou.html">шоу</a>
 									<a href="../tags/./shou-detyam.html">шоу детям</a>
 									<a href="../tags/./shou-na-prazdnik.html">шоу на праздник</a>
-									<a href="../tags/./detskiy-den--rozhdeniya.html">детский день рождения</a>
-									<a href="../tags/./den--rozhdeniya.html">день рождения</a>
-									<a href="../tags/./den--rozhdeniya-dochen-ki.html">день рождения доченьки</a>
-									<a href="../tags/./den--rozhdeniya-syna.html">день рождения сына</a>
+									<a href="../tags/./detskiy-den--rozh-deniya.html">детский день рож дения</a>
+									<a href="../tags/./den--rozh-deniya.html">день рож дения</a>
+									<a href="../tags/./den--rozh-deniya-dochen-ki.html">день рож дения доченьки</a>
+									<a href="../tags/./den--rozh-deniya-syna.html">день рож дения сына</a>
 									<a href="../tags/./detskiy-prazdnik.html">детский праздник</a>
 									<a href="../tags/./detskiy-prazdnik-moskva.html">детский праздник Москва</a>
 									<a href="../tags/./loft.html">лофт</a>
@@ -445,7 +463,7 @@
 									<div class="article-more__item-pic-blind">
 										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>178</span>
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/b2d3e567cb83f1df731c3adbbd95274b/5E1BA4AE/t51.2885-15/e35/56371216_2492265117470709_8075809867195475133_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt="Загадать заветное желание вместе с любимыми сказочными героям для ребёнка бесценно!">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/d567429a33de05209f01aaa3a054da6d/5E4331AE/t51.2885-15/e35/56371216_2492265117470709_8075809867195475133_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt="Загадать заветное желание вместе с любимыми сказочными героям для ребёнка бесценно!">
 								</div>
 								<div class="article-more__item-name">Загадать заветное желание вместе с любимыми сказочными героям для ребёнка бесценно!</div>
 							</a>
@@ -481,7 +499,7 @@
 									<div class="article-more__item-pic-blind">
 										<span><i class="fa fa-comment-o" aria-hidden="true"></i>0</span> <span><i class="fa fa-heart" aria-hidden="true"></i>108</span>
 									</div>
-									<img src="https://scontent-arn2-2.cdninstagram.com/vp/4d1142520b91295dfb3e318887c6fd11/5E3966F0/t51.2885-15/e35/53642103_625285864586348_6480906305478861542_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="Агентство детских праздников Маскарад проводит интерактивные программы на детских выпускных в начальной школе и выпускных в Детском саду!">
+									<img src="https://scontent-arn2-2.cdninstagram.com/vp/0f6fd31052425ddf269ad6b515b810a0/5E60F3F0/t51.2885-15/e35/53642103_625285864586348_6480906305478861542_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt="Агентство детских праздников Маскарад проводит интерактивные программы на детских выпускных в начальной школе и выпускных в Детском саду!">
 								</div>
 								<div class="article-more__item-name">Агентство детских праздников Маскарад проводит интерактивные программы на детских выпускных в начальной школе и выпускных в Детском саду!</div>
 							</a>
@@ -545,11 +563,12 @@
 			</div>
 		</div>		
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->

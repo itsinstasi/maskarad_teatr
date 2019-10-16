@@ -28,6 +28,9 @@
     <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#fff">
 
+	<!--modernizr-->
+	<script src="../js/vendors/modernizr-custom.js"></script>
+
 </head>
 <body>
     <!--[if lt IE 8]>
@@ -59,249 +62,255 @@
 			</div>
 		</header>	
 		<div class="main">
-			<div class="stories" style="display: none;">
+			<div class="stories">
 				<div class="container">
-					<div class="stories__slider" id="js-stories-slider">
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организация детских праздников">
-								<a href="./organizatsiya-detskikh-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatsiya-detskikh-prazdnikov.png" alt="организация детских праздников" /></div>
-									<div class="stories__slide-txt">организация детских праздников</div>
-								</a>
+					<div class="stories__slider-wrap">
+						<div class="stories__slider" id="js-stories-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организация детских праздников">
+										<a href="./organizatsiya-detskikh-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatsiya-detskikh-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">организация детских праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организация праздников">
+										<a href="./organizatsiya-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatsiya-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">организация праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детский праздник">
+										<a href="./detskiy-prazdnik.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskiy-prazdnik.png);"></div>
+											<div class="stories__slide-txt">детский праздник</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="театр маскарад">
+										<a href="./teatr-maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/teatr-maskarad.png);"></div>
+											<div class="stories__slide-txt">театр маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="прове дение праздников">
+										<a href="./prove-denie-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prove-denie-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">прове дение праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детский день рож дения">
+										<a href="./detskiy-den--rozh-deniya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskiy-den--rozh-deniya.png);"></div>
+											<div class="stories__slide-txt">детский день рож дения</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агентство детских праздников">
+										<a href="./agentstvo-detskikh-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agentstvo-detskikh-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">агентство детских праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="ивент агентство">
+										<a href="./ivent-agentstvo.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/ivent-agentstvo.png);"></div>
+											<div class="stories__slide-txt">ивент агентство</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агентство маскарад">
+										<a href="./agentstvo-maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agentstvo-maskarad.png);"></div>
+											<div class="stories__slide-txt">агентство маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="прове дение детских праздников">
+										<a href="./prove-denie-detskikh-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prove-denie-detskikh-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">прове дение детских праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детские праздники">
+										<a href="./detskie-prazdniki.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskie-prazdniki.png);"></div>
+											<div class="stories__slide-txt">детские праздники</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агентство праздников">
+										<a href="./agentstvo-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agentstvo-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">агентство праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="праздник детям">
+										<a href="./prazdnik-detyam.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prazdnik-detyam.png);"></div>
+											<div class="stories__slide-txt">праздник детям</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="праздник Москва">
+										<a href="./prazdnik-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prazdnik-Moskva.png);"></div>
+											<div class="stories__slide-txt">праздник Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="день рож дения">
+										<a href="./den--rozh-deniya.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/den--rozh-deniya.png);"></div>
+											<div class="stories__slide-txt">день рож дения</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организатор праздников">
+										<a href="./organizator-prazdnikov.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizator-prazdnikov.png);"></div>
+											<div class="stories__slide-txt">организатор праздников</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="маскарад">
+										<a href="./maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/maskarad.png);"></div>
+											<div class="stories__slide-txt">маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="праздник">
+										<a href="./prazdnik.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/prazdnik.png);"></div>
+											<div class="stories__slide-txt">праздник</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="детский праздник Москва">
+										<a href="./detskiy-prazdnik-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/detskiy-prazdnik-Moskva.png);"></div>
+											<div class="stories__slide-txt">детский праздник Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="omg">
+										<a href="./omg.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/omg.png);"></div>
+											<div class="stories__slide-txt">omg</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организатор мероприятий">
+										<a href="./organizator-meropriyatiy.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizator-meropriyatiy.png);"></div>
+											<div class="stories__slide-txt">организатор мероприятий</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организация праздника">
+										<a href="./organizatsiya-prazdnika.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatsiya-prazdnika.png);"></div>
+											<div class="stories__slide-txt">организация праздника</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="фотограф Москва">
+										<a href="./fotograf-moskva.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/fotograf-Moskva.png);"></div>
+											<div class="stories__slide-txt">фотограф Москва</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="party">
+										<a href="./party.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/party.png);"></div>
+											<div class="stories__slide-txt">party</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организаторы">
+										<a href="./organizatory.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizatory.png);"></div>
+											<div class="stories__slide-txt">организаторы</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="организатор">
+										<a href="./organizator.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/organizator.png);"></div>
+											<div class="stories__slide-txt">организатор</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="insta kids">
+										<a href="./insta-kids.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/insta-kids.png);"></div>
+											<div class="stories__slide-txt">insta kids</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="maskarad">
+										<a href="./maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/maskarad.png);"></div>
+											<div class="stories__slide-txt">maskarad</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="агенство маскарад">
+										<a href="./agenstvo-maskarad.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/agenstvo-maskarad.png);"></div>
+											<div class="stories__slide-txt">агенство маскарад</div>
+										</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<div class="stories__slide" title="event">
+										<a href="./event.html">
+											<div class="stories__slide-pic" style="background-image: url(../img/og/event.png);"></div>
+											<div class="stories__slide-txt">event</div>
+										</a>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организация праздников">
-								<a href="./organizatsiya-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatsiya-prazdnikov.png" alt="организация праздников" /></div>
-									<div class="stories__slide-txt">организация праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детский праздник">
-								<a href="./detskiy-prazdnik.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskiy-prazdnik.png" alt="детский праздник" /></div>
-									<div class="stories__slide-txt">детский праздник</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="театр маскарад">
-								<a href="./teatr-maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/teatr-maskarad.png" alt="театр маскарад" /></div>
-									<div class="stories__slide-txt">театр маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="проведение праздников">
-								<a href="./provedenie-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/provedenie-prazdnikov.png" alt="проведение праздников" /></div>
-									<div class="stories__slide-txt">проведение праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детский день рождения">
-								<a href="./detskiy-den--rozhdeniya.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskiy-den--rozhdeniya.png" alt="детский день рождения" /></div>
-									<div class="stories__slide-txt">детский день рождения</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агентство детских праздников">
-								<a href="./agentstvo-detskikh-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/agentstvo-detskikh-prazdnikov.png" alt="агентство детских праздников" /></div>
-									<div class="stories__slide-txt">агентство детских праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="ивент агентство">
-								<a href="./ivent-agentstvo.html">
-									<div class="stories__slide-pic"><img src="../img/og/ivent-agentstvo.png" alt="ивент агентство" /></div>
-									<div class="stories__slide-txt">ивент агентство</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агентство маскарад">
-								<a href="./agentstvo-maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/agentstvo-maskarad.png" alt="агентство маскарад" /></div>
-									<div class="stories__slide-txt">агентство маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="проведение детских праздников">
-								<a href="./provedenie-detskikh-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/provedenie-detskikh-prazdnikov.png" alt="проведение детских праздников" /></div>
-									<div class="stories__slide-txt">проведение детских праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детские праздники">
-								<a href="./detskie-prazdniki.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskie-prazdniki.png" alt="детские праздники" /></div>
-									<div class="stories__slide-txt">детские праздники</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агентство праздников">
-								<a href="./agentstvo-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/agentstvo-prazdnikov.png" alt="агентство праздников" /></div>
-									<div class="stories__slide-txt">агентство праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="праздник детям">
-								<a href="./prazdnik-detyam.html">
-									<div class="stories__slide-pic"><img src="../img/og/prazdnik-detyam.png" alt="праздник детям" /></div>
-									<div class="stories__slide-txt">праздник детям</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="праздник Москва">
-								<a href="./prazdnik-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/prazdnik-Moskva.png" alt="праздник Москва" /></div>
-									<div class="stories__slide-txt">праздник Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="день рождения">
-								<a href="./den--rozhdeniya.html">
-									<div class="stories__slide-pic"><img src="../img/og/den--rozhdeniya.png" alt="день рождения" /></div>
-									<div class="stories__slide-txt">день рождения</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организатор праздников">
-								<a href="./organizator-prazdnikov.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizator-prazdnikov.png" alt="организатор праздников" /></div>
-									<div class="stories__slide-txt">организатор праздников</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="маскарад">
-								<a href="./maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/maskarad.png" alt="маскарад" /></div>
-									<div class="stories__slide-txt">маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="праздник">
-								<a href="./prazdnik.html">
-									<div class="stories__slide-pic"><img src="../img/og/prazdnik.png" alt="праздник" /></div>
-									<div class="stories__slide-txt">праздник</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="детский праздник Москва">
-								<a href="./detskiy-prazdnik-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/detskiy-prazdnik-Moskva.png" alt="детский праздник Москва" /></div>
-									<div class="stories__slide-txt">детский праздник Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="omg">
-								<a href="./omg.html">
-									<div class="stories__slide-pic"><img src="../img/og/omg.png" alt="omg" /></div>
-									<div class="stories__slide-txt">omg</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организатор мероприятий">
-								<a href="./organizator-meropriyatiy.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizator-meropriyatiy.png" alt="организатор мероприятий" /></div>
-									<div class="stories__slide-txt">организатор мероприятий</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организация праздника">
-								<a href="./organizatsiya-prazdnika.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatsiya-prazdnika.png" alt="организация праздника" /></div>
-									<div class="stories__slide-txt">организация праздника</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="фотограф Москва">
-								<a href="./fotograf-moskva.html">
-									<div class="stories__slide-pic"><img src="../img/og/fotograf-Moskva.png" alt="фотограф Москва" /></div>
-									<div class="stories__slide-txt">фотограф Москва</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="party">
-								<a href="./party.html">
-									<div class="stories__slide-pic"><img src="../img/og/party.png" alt="party" /></div>
-									<div class="stories__slide-txt">party</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организаторы">
-								<a href="./organizatory.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizatory.png" alt="организаторы" /></div>
-									<div class="stories__slide-txt">организаторы</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="организатор">
-								<a href="./organizator.html">
-									<div class="stories__slide-pic"><img src="../img/og/organizator.png" alt="организатор" /></div>
-									<div class="stories__slide-txt">организатор</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="insta kids">
-								<a href="./insta-kids.html">
-									<div class="stories__slide-pic"><img src="../img/og/insta-kids.png" alt="insta kids" /></div>
-									<div class="stories__slide-txt">insta kids</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="maskarad">
-								<a href="./maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/maskarad.png" alt="maskarad" /></div>
-									<div class="stories__slide-txt">maskarad</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="агенство маскарад">
-								<a href="./agenstvo-maskarad.html">
-									<div class="stories__slide-pic"><img src="../img/og/agenstvo-maskarad.png" alt="агенство маскарад" /></div>
-									<div class="stories__slide-txt">агенство маскарад</div>
-								</a>
-							</div>
-						</div>
-						<div>
-							<div class="stories__slide js-stories-popup-open" title="event">
-								<a href="./event.html">
-									<div class="stories__slide-pic"><img src="../img/og/event.png" alt="event" /></div>
-									<div class="stories__slide-txt">event</div>
-								</a>
-							</div>
-						</div>
+						<div class="stories__arrow stories__arrow--prev" id="js-stories-prev"></div>
+						<div class="stories__arrow stories__arrow--next" id="js-stories-next"></div>
 					</div>
 				</div>
 			</div>
@@ -331,7 +340,7 @@
 								</div>
 							</a>
 							<a href="../posts/./zagadat--zavetnoe-zhelanie-vmeste-s-lyubimymi-skazochnymi-geroyam-dlya-rebyonka-bestsenno.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b2d3e567cb83f1df731c3adbbd95274b/5E1BA4AE/t51.2885-15/e35/56371216_2492265117470709_8075809867195475133_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d567429a33de05209f01aaa3a054da6d/5E4331AE/t51.2885-15/e35/56371216_2492265117470709_8075809867195475133_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=109" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Причал</div>
@@ -376,7 +385,7 @@
 								</div>
 							</a>
 							<a href="../posts/./agentstvo-detskikh-prazdnikov-maskarad-provodit-interaktivnye-programmy-na-detskikh-vypusknykh-v-nachal-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4d1142520b91295dfb3e318887c6fd11/5E3966F0/t51.2885-15/e35/53642103_625285864586348_6480906305478861542_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0f6fd31052425ddf269ad6b515b810a0/5E60F3F0/t51.2885-15/e35/53642103_625285864586348_6480906305478861542_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Парк Зарядье</div>
@@ -555,7 +564,7 @@
 								</div>
 							</a>
 							<a href="../posts/./piratskaya-vecherinka-dlya-detey-ot-4-let.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c654ffa38dc1adf60f48e9aae173c9aa/5E1B49D4/t51.2885-15/e35/44321277_2227557360900839_3765393382063019309_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/56b458a080d29a180b04355ce7ce200e/5E42D6D4/t51.2885-15/e35/44321277_2227557360900839_3765393382063019309_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Причал</div>
@@ -570,7 +579,7 @@
 								</div>
 							</a>
 							<a href="../posts/./vysledi-komandu-protivnikax-zakhvati-pervym-bazu-i-strelyay-na-porazhenie.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/5000c275c319b70ef92fdd330fb61bdc/5E1B688A/t51.2885-15/e35/44647504_328512044602559_7300215659086839538_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7b06730f589085a0c4452f4a519539d5/5E42F58A/t51.2885-15/e35/44647504_328512044602559_7300215659086839538_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Ресторан Мясо&рыба, Кунцево Плаза</div>
@@ -585,7 +594,7 @@
 								</div>
 							</a>
 							<a href="../posts/./organizatsiya-detskikh-prazdnikov-pod-klyuch-moskva-i-mo.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/464189dbeadcca324791fee34d78a828/5DA545EC/t51.2885-15/e35/42496928_2146860068905841_3878430480900092773_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2f02e3b587f1f46cb27e170fa695d7c4/5DA891AC/t51.2885-15/e35/42496928_2146860068905841_3878430480900092773_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>ExitGames - игровой центр развлечений</div>
@@ -630,7 +639,7 @@
 								</div>
 							</a>
 							<a href="../posts/./videos-yomka-na-detskom-prazdnikex-s-postanovochnymi-kadramix-s-pozdravleniem-imeninnika.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1f8e3c19262d9434bf39c4c3b19624df/5E38353E/t51.2885-15/e35/43133298_414339725766124_5254530075401203698_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/bfe8edd3ac3071a90494d61dd481a4dd/5E5FC23E/t51.2885-15/e35/43133298_414339725766124_5254530075401203698_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>АФИМОЛЛ Сити/ AFIMALL City</div>
@@ -660,7 +669,7 @@
 								</div>
 							</a>
 							<a href="../posts/./bumazhnoe-shou-dlya-detey-na-prazdnike-vozmozhnost--otorvat-sya-i-vypustit--vse-emotsii.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/54443ab5a34e51ff09ec0a37184a43d4/5E1C4E0A/t51.2885-15/e35/42403122_269802376998760_4699176792561196109_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/39f474b2cabe0807279e299ab8e16d6b/5E43DB0A/t51.2885-15/e35/42403122_269802376998760_4699176792561196109_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>THE MOSCOW CITY</div>
@@ -810,7 +819,7 @@
 								</div>
 							</a>
 							<a href="../posts/./bumazhnoe-shou-tak-lyubimo-det-mi-i-zakazyvat--ego-mozhno-ezhegodno.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7c3d0696f24bcae3a5deab8b97293d22/5E3912F2/t51.2885-15/e35/39952597_315412952560335_4362424297835222079_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/49a67538d43f7229c69e618780cfc4d3/5E609FF2/t51.2885-15/e35/39952597_315412952560335_4362424297835222079_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Новинский Пассаж</div>
@@ -915,7 +924,7 @@
 								</div>
 							</a>
 							<a href="../posts/./podgotovka-sladkogo-stola-v-stile-mikki-mausa-na-detskiy-den--rozhdeniya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b89ab399041a7684367388e918200618/5DA511C9/t51.2885-15/e15/30086182_136571797194140_7399897375885492224_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c64d110493aea93e0334bdb5819c29f6/5DA90649/t51.2885-15/e15/30086182_136571797194140_7399897375885492224_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2018-04-18">18 April 2018</time></div>
@@ -1004,7 +1013,7 @@
 								</div>
 							</a>
 							<a href="../posts/./fotozona-na-detskiy-prazdnik-v-stile-mxf-shimmer-i-shayn.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d185fffe4e33928b0e5f65fc57e28a80/5E388BFB/t51.2885-15/e35/29403499_225175598060611_7713801593358909440_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/56cbf656c1f20998109e858f5ffc49c7/5E6018FB/t51.2885-15/e35/29403499_225175598060611_7713801593358909440_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Парк Зарядье</div>
@@ -1094,7 +1103,7 @@
 								</div>
 							</a>
 							<a href="../posts/./prazdnik-detyam-v-safari-stilex-dlya-tekh-kto-lyubit-pobegat--i-postrelyat-.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/874094da08ffdf10b4545328463ecbe3/5DA5299A/t51.2885-15/fr/e15/s1080x1080/21371912_272489479913927_3277632875226202112_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c2b35fb486aea19c48e15181764b4d68/5DA8755A/t51.2885-15/fr/e15/s1080x1080/21371912_272489479913927_3277632875226202112_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Новоглаголево Котеджный Поселок</div>
@@ -1109,7 +1118,7 @@
 								</div>
 							</a>
 							<a href="../posts/./tsel--nauchnykh-shou-na-detskom-prazdnike-mnogogrannax-ne-tol-ko-razvlech--deteyx-no-i-privit--im-interes.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/4a5278b4e3dae1b6791a97643d82265c/5E3AA609/t51.2885-15/e35/21373798_349247168865779_8104346332543582208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/b8dc288503328d31a5d13a39d5221db6/5E623309/t51.2885-15/e35/21373798_349247168865779_8104346332543582208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Ресторан «Levantine»</div>
@@ -1169,7 +1178,7 @@
 								</div>
 							</a>
 							<a href="../posts/./fokusnik-na-prazdnike-veseloe-i-yarkoe-shou.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/c245d6e34887d309252289be7a928db9/5E19C586/t51.2885-15/e35/21295013_336934596776777_2870597497439387648_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8e996a4d86bf47edb68c8b3a08a129ab/5E415286/t51.2885-15/e35/21295013_336934596776777_2870597497439387648_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Причал</div>
@@ -1199,7 +1208,7 @@
 								</div>
 							</a>
 							<a href="../posts/./repost-xshapushka.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/205c844f98191f906c5391a299ec48bd/5DA51258/t51.2885-15/e15/21294913_274425339724813_6350524165530845184_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/1aa29c7b8625c14f68dea72e0019c83b/5DA906D8/t51.2885-15/e15/21294913_274425339724813_6350524165530845184_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=101" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Moscow, Russia</div>
@@ -1229,7 +1238,7 @@
 								</div>
 							</a>
 							<a href="../posts/./myl-nye-puzyri-s-ognyom-na-ruke.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/82a130f864c89a311b05ce535cfeac4e/5DA51F2B/t51.2885-15/e15/21372207_1919650071692295_3419992018678448128_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/2a4fa5dbbac8b07148906d34469929e5/5DA913AB/t51.2885-15/e15/21372207_1919650071692295_3419992018678448128_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=103" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Pushkinsky District, Moscow Oblast</div>
@@ -1244,7 +1253,7 @@
 								</div>
 							</a>
 							<a href="../posts/./banner-na-detskiy-den--rozhdeniya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/9f1959be6b89340062faf0b44af2624b/5E1A7670/t51.2885-15/e35/21296255_172181416686364_5806487749137530880_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d9b732c479cad6ec2d229fcea9b18e98/5E420370/t51.2885-15/e35/21296255_172181416686364_5806487749137530880_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Причал</div>
@@ -1304,7 +1313,7 @@
 								</div>
 							</a>
 							<a href="../posts/./s-novym-godom.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/afba17e7f37682955d624adb4fbece96/5E38759E/t51.2885-15/e35/21294343_115132002509162_4361478279077560320_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0363117a806e3c3bff7085cbc2dfc545/5E60029E/t51.2885-15/e35/21294343_115132002509162_4361478279077560320_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=102" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Lotte Plaza</div>
@@ -1319,7 +1328,7 @@
 								</div>
 							</a>
 							<a href="../posts/./detskie-novogodnie-spektakli-na-korporativnyy-detskiy-prazdnik.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8f465b2b8c0b359eac2ccbe1a6557b0b/5E3936F0/t51.2885-15/e35/21294335_122897268366436_7471547167073632256_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/e1e6aa265c5d3bc84882aeb2d3b76830/5E60C3F0/t51.2885-15/e35/21294335_122897268366436_7471547167073632256_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=104" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Vremena Goda Moscow</div>
@@ -1394,7 +1403,7 @@
 								</div>
 							</a>
 							<a href="../posts/./detskiy-den--rozhdeniya-ot-xmaskaradxteatr-v.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/8e975f3dd8b47abcad36d01f5f16d448/5DA546E8/t51.2885-15/e15/21294996_166691553884840_4263673477086576640_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d58655ae492f555fea0753780cc984b8/5DA892A8/t51.2885-15/e15/21294996_166691553884840_4263673477086576640_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=108" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Причал</div>
@@ -1469,7 +1478,7 @@
 								</div>
 							</a>
 							<a href="../posts/./priyatno-delat--perepost-krasivykh-fotografiy-s-prazdnikov-organizovannykh-xmaskaradxteatr.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/0ffcf20e5a929e4a5ba85ce9b4dcb51e/5E3A24E1/t51.2885-15/e35/21295148_768618943341535_3650367261207691264_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/f253f1f2194284ee4b0aa75226334e91/5E61B1E1/t51.2885-15/e35/21295148_768618943341535_3650367261207691264_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=107" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Веранда 32.05</div>
@@ -1663,7 +1672,7 @@
 								</div>
 							</a>
 							<a href="../posts/./teatr-maskarad-uchastvuet-v-provedenii-prazdnika-v-chest--dnya-zashchity-detey.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3c23b94746708d02b621bdcdf95fa445/5DA5309C/t51.2885-15/e15/21294346_1054080878066969_4176451637721694208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/7db740e64cf0da0ae3d7ff0c1530b073/5DA87C5C/t51.2885-15/e15/21294346_1054080878066969_4176451637721694208_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Большой театр России / Bolshoi Theatre of Russia</div>
@@ -1768,7 +1777,7 @@
 								</div>
 							</a>
 							<a href="../posts/./gotovim.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/d5b668dedce4760a03318284f9620ee7/5E1AC8A7/t51.2885-15/e35/21296633_754358568098681_1360082294282387456_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/3675aa0dbea1d83ad2db5529f38b9545/5E4255A7/t51.2885-15/e35/21296633_754358568098681_1360082294282387456_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Пансионат Бор</div>
@@ -1873,7 +1882,7 @@
 								</div>
 							</a>
 							<a href="../posts/./detskiy-prazdnik-udalsya.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/52ad9651a09e905c243ac9f709570d55/5E1C390E/t51.2885-15/e15/21371694_1946003242286502_3890963130037043200_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/ac6d18f8d6f49f9da1d183753da2358f/5E43C60E/t51.2885-15/e15/21371694_1946003242286502_3890963130037043200_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=106" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Пансионат Бор</div>
@@ -1947,7 +1956,7 @@
 								</div>
 							</a>
 							<a href="../posts/./hashteatrmaskarad-provel-1.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/a5ea0395ddcab5ee7e27b1bd2d4bf743/5E38206A/t51.2885-15/e15/21294951_1842132469432709_4779934851077767168_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/67b1a645c97cfc44532e0a44d1b94c4b/5E5FAD6A/t51.2885-15/e15/21294951_1842132469432709_4779934851077767168_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-clock-o" aria-hidden="true"></i><time datetime="2015-05-18">18 May 2015</time></div>
@@ -2021,7 +2030,7 @@
 								</div>
 							</a>
 							<a href="../posts/./detskiy.html" class="tag__item">
-								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/20aedcc7dd204b1b519f9ae9806d10a7/5E1D02C9/t51.2885-15/e15/21373306_259545067886795_5744372291425271808_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
+								<div class="tag__item-img"><img src="https://scontent-arn2-2.cdninstagram.com/vp/97fa7048309d53db5bfcecee8363a08e/5E448FC9/t51.2885-15/e15/21373306_259545067886795_5744372291425271808_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=111" alt=""></div>
 								<div class="tag__item-desc">
 									<div class="tag__item-datas">
 										<div class="tag__item-datas-item"><i class="fa fa-map-marker" aria-hidden="true"></i>Дворец культуры МГТУ им. Н.Э. Баумана</div>
@@ -2077,11 +2086,12 @@
 			</div>
 		</div>			
 	</div>
+	<!--swiper-->
+	<script src="../js/vendors/swiper.min.js"></script>
 	<!--jQuery-->
 	<script src="../js/vendors/jquery.min.js"></script>
-	<script src="../js/vendors/jquery.loadScroll.js"></script>
-	<!--device-->
-	<script src="../js/vendors/slick.min.js"></script>
+	<!--lazyloadxt-->
+	<script src="../js/vendors/jquery.lazyloadxt.js"></script>
 	<!--init-->
 	<script src="../js/jquery.init.js"></script>
 	<!--my scripts-->
