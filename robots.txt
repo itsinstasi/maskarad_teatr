@@ -1,2 +1,2 @@
 ﻿User-agent: *
-Sitemap: http://corpparty.ru/sitemap.xml
+Sitemap: https://corpparty.ru/sitemap.xml
